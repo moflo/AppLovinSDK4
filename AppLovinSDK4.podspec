@@ -11,7 +11,7 @@ DESC
 LICENSE
     }
   s.author           = 'AppLovin'
-  s.source           = { :http => 'https://s3.amazonaws.com/applovin-sdk/applovin-ios-sdk-4.0.2.tar.bz2' }
+  s.source           = { :http => 'https://s3.amazonaws.com/applovin-sdk/applovin-ios-sdk-4.0.2.tar.bz2?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIZPEOCMXZ2RYOD3Q%2F20170425%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20170425T174829Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Signature=a9611ffd6fb08aa92aff7cd3d898691ea481883c8e45775f11e16067d78d9eff' }
   s.platform         = :ios
 
   s.requires_arc     = true
