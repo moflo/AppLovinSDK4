@@ -11,7 +11,7 @@ DESC
 LICENSE
     }
   s.author           = 'AppLovin'
-  s.source           = { :http => "https://www.applovin.com/downloadSDK?type=ios" }
+  s.source           = { :http => 'https://s3.amazonaws.com/applovin-sdk/applovin-ios-sdk-4.0.2.tar.bz2' }
   s.platform         = :ios
 
   s.requires_arc     = true
